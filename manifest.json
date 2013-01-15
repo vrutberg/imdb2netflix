@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "IMDb 2 Netflix",
+  "description": "This extension adds Netflix integration to IMDb",
+  "version": "0.1",
+
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+
+  "permissions": [
+    "http://api-public.netflix.com/",
+    "http://www.imdb.com/",
+    "http://imdb.com/",
+    "tabs",
+    "webNavigation"
+  ]
+}
